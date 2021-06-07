@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ios", "ios", "{CEC20A12-C47
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ida", "ida", "{31CEF13B-9F78-400B-8448-A86BEBFE030C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "android_decompile_tools", "android_decompile_tools\android_decompile_tools.vcxproj", "{64AF76E8-CBD6-4F35-B5C0-D74E326424A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -27,9 +29,20 @@ Global
 		{62DCE2B1-C474-4500-B7F5-0593E418D522}.Release|x64.Build.0 = Release|x64
 		{62DCE2B1-C474-4500-B7F5-0593E418D522}.Release|x86.ActiveCfg = Release|Win32
 		{62DCE2B1-C474-4500-B7F5-0593E418D522}.Release|x86.Build.0 = Release|Win32
+		{64AF76E8-CBD6-4F35-B5C0-D74E326424A0}.Debug|x64.ActiveCfg = Debug|x64
+		{64AF76E8-CBD6-4F35-B5C0-D74E326424A0}.Debug|x64.Build.0 = Debug|x64
+		{64AF76E8-CBD6-4F35-B5C0-D74E326424A0}.Debug|x86.ActiveCfg = Debug|Win32
+		{64AF76E8-CBD6-4F35-B5C0-D74E326424A0}.Debug|x86.Build.0 = Debug|Win32
+		{64AF76E8-CBD6-4F35-B5C0-D74E326424A0}.Release|x64.ActiveCfg = Release|x64
+		{64AF76E8-CBD6-4F35-B5C0-D74E326424A0}.Release|x64.Build.0 = Release|x64
+		{64AF76E8-CBD6-4F35-B5C0-D74E326424A0}.Release|x86.ActiveCfg = Release|Win32
+		{64AF76E8-CBD6-4F35-B5C0-D74E326424A0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64AF76E8-CBD6-4F35-B5C0-D74E326424A0} = {024985F0-28FD-4DAF-A582-16482FC78BF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6895004-9DB3-48CB-8392-F7CF873AE867}
