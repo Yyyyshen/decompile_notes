@@ -51,6 +51,8 @@
 // 另外，国内安装的时候经常被墙，有时甚至挂了代理也一直连不通，可以手动安装
 // 这些内容都记录在我另一个库里
 //  https://github.com/Yyyyshen/MonkeyDevInMacOS15
+// 
+// 目前也往这个项目里合并了一份，见此项目中的readme文件
 //
 
 int main()
