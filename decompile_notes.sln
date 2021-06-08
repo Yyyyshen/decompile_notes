@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iOS_decompile_tools", "iOS_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ida_pro_guide_01", "ida_pro_guide_01\ida_pro_guide_01.vcxproj", "{BB23201C-05C2-4B54-A6C8-4060E79F4C8C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ida_pro_guide_02", "ida_pro_guide_02\ida_pro_guide_02.vcxproj", "{78EE1871-F90E-4103-8646-19C7D454BC7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -67,6 +69,14 @@ Global
 		{BB23201C-05C2-4B54-A6C8-4060E79F4C8C}.Release|x64.Build.0 = Release|x64
 		{BB23201C-05C2-4B54-A6C8-4060E79F4C8C}.Release|x86.ActiveCfg = Release|Win32
 		{BB23201C-05C2-4B54-A6C8-4060E79F4C8C}.Release|x86.Build.0 = Release|Win32
+		{78EE1871-F90E-4103-8646-19C7D454BC7F}.Debug|x64.ActiveCfg = Debug|x64
+		{78EE1871-F90E-4103-8646-19C7D454BC7F}.Debug|x64.Build.0 = Debug|x64
+		{78EE1871-F90E-4103-8646-19C7D454BC7F}.Debug|x86.ActiveCfg = Debug|Win32
+		{78EE1871-F90E-4103-8646-19C7D454BC7F}.Debug|x86.Build.0 = Debug|Win32
+		{78EE1871-F90E-4103-8646-19C7D454BC7F}.Release|x64.ActiveCfg = Release|x64
+		{78EE1871-F90E-4103-8646-19C7D454BC7F}.Release|x64.Build.0 = Release|x64
+		{78EE1871-F90E-4103-8646-19C7D454BC7F}.Release|x86.ActiveCfg = Release|Win32
+		{78EE1871-F90E-4103-8646-19C7D454BC7F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +86,7 @@ Global
 		{FFCCD0D9-68E2-4585-83B6-4B506FDBCCB9} = {024985F0-28FD-4DAF-A582-16482FC78BF4}
 		{70B94F5A-7890-4163-8205-A13F3BD8F561} = {CEC20A12-C479-4762-8ACF-368327404BEF}
 		{BB23201C-05C2-4B54-A6C8-4060E79F4C8C} = {31CEF13B-9F78-400B-8448-A86BEBFE030C}
+		{78EE1871-F90E-4103-8646-19C7D454BC7F} = {31CEF13B-9F78-400B-8448-A86BEBFE030C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6895004-9DB3-48CB-8392-F7CF873AE867}
