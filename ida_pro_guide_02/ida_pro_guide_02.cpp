@@ -9,6 +9,20 @@
 
 
 //IDA入门
+// 
+//基本使用日常中已经有所了解
+// 
+//控制台两个基本点
+// 可以开始浏览了（但不能改）
+// You may start to explore the input file right now.
+// 初始化分析完成
+// The initial autoanalysis has been finished.
+// 
+
+
+//IDA数据显示窗口
+// 
+//
 //
 
 
