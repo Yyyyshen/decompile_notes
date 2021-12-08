@@ -64,6 +64,73 @@
 //
 
 
+/*
+
+frida调试
+应用列表
+frida-ps -Uai
+
+-f  spawn模式启动App
+frida -U -f com.example.app -l test.js --no-pause
+先启动App，再attach上去
+frida -U -l test.js com.example.app
+直接指定进程号
+frida -U -l test.js -p pid
+查看被attach的情况
+cat /proc/{pid}/status | grep TracerPid
+
+anti反调试，先执行
+frida -U -f com.example.app --no-pause
+提示Process terminated之后，再执行
+frida -U com.example.app -l test.js
+
+*/
+
+/*	test.py
+
+import frida, sys
+
+def on_message(message, data):
+	if message['type'] == 'send':
+		print("[*] {0}".format(message['payload']))
+	else:
+		print(message)
+
+jscode = """
+Java.perform(function () {
+  // Function to hook is defined here
+  var MainActivity = Java.use('com.example.seccon2015.rock_paper_scissors.MainActivity');
+
+  // Whenever button is clicked
+  var onClick = MainActivity.onClick;
+  onClick.implementation = function (v) {
+	// Show a message to know that the function got called
+	send('onClick');
+
+	// Call the original onClick handler
+	onClick.call(this, v);
+
+	// Set our values after running the original onClick handler
+	this.m.value = 0;
+	this.n.value = 1;
+	this.cnt.value = 99;
+
+	// Log to the console that it's done, and we should have the flag!
+	console.log('Done:' + JSON.stringify(this.cnt));
+  };
+});
+"""
+
+process = frida.get_usb_device().attach('rock_paper_scissors')
+script = process.create_script(jscode)
+script.on('message', on_message)
+print('[*] Running CTF')
+script.load()
+sys.stdin.read()
+
+*/
+
+
 int main()
 {
     std::cout << "Hello World!\n";
