@@ -55,6 +55,14 @@
 //不是使用教程，个人感觉自己看官方教程更好 
 //
 
+//
+//cocosjs
+// jsc逆向
+// 前阵子又看了下cocos游戏的逆向相关，其中对于js语言的包，搜索了下so文件下一些关键字，发现并不含加密，只是将js编译为类似于字节码的jsc，找到了一个脚本来反编译。
+// 是php的脚本，可以自己配合python脚本，批量转换，记录在这：
+//  https://github.com/irelance/jsc-decompile-mozjs-34
+//
+
 
 int main()
 {
